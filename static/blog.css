@@ -10,10 +10,12 @@
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
+  text-decoration: none;
 }
 .site-header a {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
+  text-decoration: none;
 }
 .site-header a:hover {
   color: #fff;
@@ -28,11 +30,11 @@
   position: absolute;
   right: 10%;
   bottom: -30%;
-  width: 200px;
+  width: 300px;
   height: 540px;
   background-color: #333;
   border-radius: 21px;
-
+  transform: rotate(30deg);
 }
 
 .product-device::before {
@@ -42,6 +44,7 @@
   bottom: 10%;
   left: 10px;
   content: "";
+  background-color: rgba(255, 255, 255, .1);
   border-radius: 5px;
 }
 
@@ -61,9 +64,8 @@
 .flex-equal > * {
   flex: 1;
 }
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
   }
-  
 }
