@@ -2,7 +2,7 @@
   max-width: 960px;
 }
 #home{
-  background-image: url('https://cdn.pixabay.com/photo/2020/06/06/22/40/terraforming-5268447_1280.jpg');
+  background-image: url(img/terraforming.webp);
   margin-top: 0 !important;
   margin-left: 0;
 }
